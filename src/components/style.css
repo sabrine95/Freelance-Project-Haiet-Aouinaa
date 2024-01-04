@@ -1,0 +1,45 @@
+
+h1 {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: "Courier New";
+    font-size: 3em;
+    text-align: center;
+    background-color: none;
+    float: top;
+    padding-top: 2.5%;
+    width: 100%;
+    font-weight: lighter;
+  }
+
+  h2 {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: "Courier New";
+    font-size: 1em;
+    text-align: center;
+    background-color: none;
+    float: top;
+    padding-top: 2.5%;
+    width: 100%;
+    font-weight: bold;
+    
+  }
+
+  h3{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-weight: 100;
+  font-size: 0.8em;
+  }
+
+  p {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  
+  }
+
+  
+
+

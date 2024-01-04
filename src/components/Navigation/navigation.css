@@ -1,0 +1,200 @@
+.nav {
+  display: flex;
+  overflow: hidden;
+  position: sticky;
+}
+.nav-left {
+  background-image: url("../../../public/Yoga.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 412px;
+  width: 180px;
+  cursor: pointer;
+}
+.nav-left h1 {
+  font-family: 'Courier';
+  font-weight: lighter;
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  padding-top: 11rem;
+  margin-top: 0px;
+  height: 58%;
+  
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+}
+.nav-right-Archi {
+  background-image: url("../../../public/architectur.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 194px;
+  height: 109px;
+  cursor: pointer;
+}
+
+.nav-right-VI {
+  background-image: url("../../../public/video.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 194px;
+  height: 101px;
+  cursor: pointer;
+}
+
+.nav-right-ArchiYoga {
+  background-image: url("../../../public/archiyoga.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 194px;
+  height: 95px;
+  cursor: pointer;
+}
+
+.nav-right-Design {
+  background-image: url("../../../public/design.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 194px;
+  height: 107px;
+  cursor: pointer;
+}
+
+.nav-right h1 {
+  font-family: 'Courier';
+  font-weight: lighter;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 1.0rem;
+  margin-top: 0px;
+  height: 100%;
+}
+
+.nav-right :hover {
+  background-image: url("../../../public/0-hover.png");
+  color: red;
+  transition-duration: 1.5s;
+}
+.nav-left :hover {
+  background-image: url("../../../public/0-hover.png");
+  color: red;
+  transition-duration: 1.5s;
+}
+
+
+.nav-right-Archi :hover{
+  background-image: url("../../../public/architectur-hover.png");
+  width: 194px;
+  height: 109px;
+  cursor: pointer;
+  transition-duration: 1.5s;
+
+}
+
+.nav-right-VI :hover{
+  background-image: url("../../../public/video-hover.png");
+  width: 194px;
+  height: 101px;
+  cursor: pointer;
+  transition-duration: 1.5s;
+
+}
+
+.nav-right-ArchiYoga :hover{
+  background-image: url("../../../public/archiyoga-hover.png");
+  width: 194px;
+  height: 95px;
+  cursor: pointer;
+  transition-duration: 1.5s;
+
+}
+
+.nav-right-Design :hover{
+  background-image: url("../../../public/design-hover.png");
+  width: 194px;
+  height: 107px;
+  cursor: pointer;  
+  transition-duration: 1.5s;
+
+}
+
+
+.t-d-none{
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 550px){
+  .nav-left{
+    background-image: url("../../../public/0.png");
+    width: 118px;
+    height: 282px;
+  }
+  .nav-right-Archi{
+    background-image: url("../../../public/1.png");
+    width: 124px;
+    height: 76px;
+  }
+  .nav-right-VI{
+    background-image: url("../../../public/2.png");
+    width: 124px;
+  height: 67px;
+  }
+  .nav-right-ArchiYoga{
+    background-image: url("../../../public/3.png");
+    width: 124px;
+  height: 65px;
+  }
+  .nav-right-Design{
+    background-image: url("../../../public/4.png");
+    width: 124px;
+  height: 74px;
+  }
+  .nav-left h1 {
+    font-size: 60px;
+    padding-top: 7rem;
+  }
+  .nav-right h1 {
+    font-size: 45px;
+    padding-top: 0.7rem;
+  }
+
+
+
+  .nav-left :hover{
+    background-image: url("../../../public/Yoga-hover.png");
+    width: 118px;
+    height: 282px;
+    transition-duration: 1.5s;
+  }
+  .nav-right-Archi :hover{
+    background-image: url("../../../public/1-hover.png");
+    width: 124px;
+    height: 76px;
+    transition-duration: 1.5s;
+  }
+  .nav-right-VI :hover{
+    background-image: url("../../../public/2-hover.png");
+    width: 124px;
+  height: 67px;
+  transition-duration: 1.5s;
+  }
+  .nav-right-ArchiYoga :hover{
+    background-image: url("../../../public/3-hover.png");
+    width: 124px;
+  height: 65px;
+  transition-duration: 1.5s;
+  }
+  .nav-right-Design :hover{
+    background-image: url("../../../public/4-hover.png");
+    width: 124px;
+  height: 74px;
+  transition-duration: 1.5s;
+}
+}

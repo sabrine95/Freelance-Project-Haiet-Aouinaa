@@ -1,0 +1,33 @@
+.description-cour-collective {
+    width: 80%;
+    margin: auto;
+}
+.court-collective-prix-container {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    gap: 4px;
+}
+
+.court-collective-prix-container-child img{
+    height: 400px;
+    width: 280px;
+}
+.yoga-dowload-button{
+    margin-top: 1%;
+    display: inline-flex;
+    font-family: "Courier New";
+    background-color: #84ACEA;
+    padding: 15px 35px;
+    border-radius: 50px;
+    border-color: #84ACEA;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,143 @@
+#container-card-archi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 4% 1% 4% 1%;
+    row-gap:20px;
+  }
+spam {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: "Courier New";
+    font-size: 2em;
+    text-align: center;
+    background-color: none;
+    float: top;
+    padding-top: 2.5%;
+    width: 100%;
+    font-weight: lighter;
+  }
+.box{
+    width:250px;
+    height:250px ;
+    position :relative ;
+    margin: 0px 10px;
+    transition: 0.6s;
+    cursor: pointer;
+    filter: opacity(50%);
+  }
+    
+
+
+  .box-big{
+    width:500px;
+    height:250px ;
+    position :relative ;
+    margin: 0px 10px;
+    transition: 0.6s;
+    cursor: pointer;
+    filter: opacity(50%);
+  }
+.box-img {
+    
+    width: 100%; 
+    height: 100%;
+    background-size: cover;
+  
+    }
+
+    
+.box:hover{
+		transform: scale(1.2);
+		background: #ff800a;
+		z-index: 2;
+        filter: opacity(100%);
+		
+		
+	}
+
+  .overlay{
+    position: fixed;
+    width: 84vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 7.5%;
+    z-index: 2;
+    cursor: pointer;
+  }
+  .overlayp{
+   display: flex;
+  }
+  .overlaypp{
+    background-color: #ff800a;
+   }
+   .frame {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+  }
+ 
+  .custom-btn {
+    width: 40%;
+    height: 40px;
+    padding: 10px 25px;
+    border: 2px solid #84acea;
+    font-family: Lato, sans-serif;
+  font-weight: 100;
+  font-size: 1em;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+
+  .btn-4 {
+    position: relative;
+    color: #000000;
+    z-index: 2;
+    font-family: Lato, sans-serif;
+  font-weight: 100;
+  font-size: 1.2em;
+  line-height: 40px;
+  padding: 0;
+  text-decoration: none;
+  }
+  .btn-4:hover{
+    border: none;
+  }
+  .btn-4:before,
+  .btn-4:after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+    border: 2px solid;
+    z-index: -1;
+    transition: all 0.3s ease;
+  }
+  .btn-4:before {
+    top: 0;
+     left: 0;
+     border-bottom-color: transparent;
+     border-right-color: transparent;
+     border-top-color: #84acea;
+     border-left-color: #84acea;
+  }
+  .btn-4:after{
+     bottom: 0;
+     right: 0;
+     border-top-color: transparent;
+     border-left-color: transparent;
+     border-bottom-color: #84acea;
+     border-right-color: #84acea;
+  }
+  .btn-4:hover:before,
+  .btn-4:hover:after {
+    border-color: #84acea;
+    height: 100%;
+    width: 100%;
+  }

@@ -1,0 +1,132 @@
+.bloc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+  }
+  .bloc-slider {
+    width: 60%;
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    padding: 25px;
+    border: #84ACEA solid;
+    border-radius: 25px;
+    height: 200px;
+    transition: all 0.3s;
+  }
+  .bloc-slider__item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bloc-slider__img1 {
+    width: 200px;
+    flex-shrink: 0;
+    height: 200px;
+    background-image: url("https://cdn.discordapp.com/attachments/889191412317429791/1057634149025988668/courcc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 4px 13px 30px 1px #84ACEA;
+    border-radius: 20px;
+    transform: translateX(-80px);
+    overflow: hidden;
+  }
+  .bloc-slider__img2 {
+      width: 200px;
+      flex-shrink: 0;
+      height: 200px;
+      background-image: url("https://cdn.discordapp.com/attachments/889191412317429791/1057634149290221598/courpp.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      box-shadow: 4px 13px 30px 1px #84ACEA;
+      border-radius: 20px;
+      transform: translateX(-80px);
+      overflow: hidden;
+    }
+  
+  .bloc-slider__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    opacity: 0;
+    border-radius: 20px;
+    transition: all 0.3s;
+    
+  }
+  
+  .bloc-slider__code {
+    color: #7b7992;
+    margin-bottom: 15px;
+    display: block;
+    font-weight: 500;
+  }
+  .bloc-slider__title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0d0925;
+    margin-bottom: 20px;
+  }
+  .bloc-slider__text {
+    color: #4e4a67;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+    text-align: center;
+    
+  }
+  .bloc-slider__button {
+    display: inline-flex;
+    background-color: #84ACEA;
+    padding: 15px 35px;
+    border-radius: 50px;
+    color: #fff;
+    
+    text-decoration: none;
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  .bloc-slider__button link{
+    text-decoration: none;
+    
+  }
+
+  @media screen and (max-width: 1100px){
+    .bloc{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 16vh ;
+      background-color: rgb(255, 255, 255);
+    }
+    .bloc-slider {
+     display: flex;
+     justify-content: center;
+      background-color: #ffffff;
+    width: 100%;  
+    margin: auto;
+    padding: 0px;
+    border-radius: 0px;
+    height: 200px;
+    transition: all 0.3s;
+    }
+    .bloc-slider__img1{
+      background-image: none;
+      width: 0;
+      height: 0;
+    }
+    .bloc-slider__img2{
+      background-image: none;
+      width: 0;
+      height: 0;
+    }
+ 
+  }
+  @media screen and (min-width: 0px)and (max-width: 960px){
+    .bloc-slider {
+    border: none;
+    }
+  }

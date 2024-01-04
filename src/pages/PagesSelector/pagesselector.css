@@ -1,0 +1,35 @@
+.pages-selector{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+   
+    
+}
+.part-one{
+    width: 8.2%;
+    background-color: #84acea;
+    position: fixed;
+    height: 100vh;
+    padding-top: 20vh;
+    top: 0;
+left: 0;
+}
+.part-two{
+width: 84%;
+padding-top: 4%;
+margin-left: 8.2%;
+
+
+}
+.part-three{
+width: 7.8%;
+height: 100vh;
+top: 0;
+right: 0;
+background-color: #84acea;
+position: fixed;
+padding-top: 20vh;
+
+
+}
+

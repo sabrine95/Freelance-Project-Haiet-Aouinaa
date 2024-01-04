@@ -1,0 +1,48 @@
+.homepage-background {
+  width: 100%;
+  background-color: #84acea;
+  height: 100%;
+}
+.homepage {
+  width: 85%;
+  margin: auto;
+  background-color: white;
+  height: 100%;
+}
+.navigation-pos {
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+}
+.homepage-about {
+  width: 60%;
+  margin: auto;
+  padding-top: 4%;
+}
+.homepage-about p:nth-child(1) {
+  font-family: "Courier";
+  font-weight: lighter;
+  font-size: 20px;
+  color: black;
+}
+.homepage-about :nth-child(2) {
+  font-family: "Courier";
+  font-weight: lighter;
+  font-size: 20px;
+  color: rgb(132, 136, 135);
+}
+.homepage-about p:nth-child(4) {
+  text-align: center;
+  font-family: "st_marie_thinthin";
+  color: #82b1cd;
+  font-size: 20px;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  margin-bottom: 0%;
+}
+
+@media screen and (max-width: 1220px) {
+  .homepage {
+    height: 102vmax;
+  }
+}

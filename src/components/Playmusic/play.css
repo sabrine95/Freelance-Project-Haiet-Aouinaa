@@ -1,0 +1,14 @@
+.playbtn-container {
+  position: fixed;
+  left: 10%;
+  bottom: 5%;
+}
+.playbtn-container img {
+  width: 40px;
+  height: 40px;
+}
+.playbtn-container button {
+  display: flex;
+  background-color: transparent;
+  border: none;
+}

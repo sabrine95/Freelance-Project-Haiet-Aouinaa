@@ -1,0 +1,101 @@
+
+#sidebar{
+    background-image: url(./art.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #98B3DF;
+    width: 100px;
+    height: 350px;
+    background-position: 89% 35%;
+    filter: opacity(50%);
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+     }
+#sidebarrigt{
+    filter: opacity(50%);
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+}
+#sidebarrigt h1{
+    font-family: 'Courier';
+    font-weight: lighter;
+    transition-property: color,background-color,background-image,opacity;
+    color: white;
+    margin: 0%;
+    height: 20px;
+    cursor: pointer;
+    font-size: 3.2em;
+    transform: scale(1, 1.2);
+    -webkit-font-smoothing: antialiased;
+}
+#sidebarrigt h2{
+    font-family: 'Courier';
+    font-weight: lighter;
+    transition-property: color,background-color,background-image,opacity;
+    color: white; 
+    height: 20px;
+    cursor: pointer;
+    font-size: 2.2em;
+    transform: scale(1, 1.2);
+    -webkit-font-smoothing: antialiased;
+    width: 120%;
+    height: 40px;
+   
+}
+#sidebarrigt h2:hover{
+    background-color: white;
+    color: red;
+    transition-duration: 1.5s;
+}
+#sidebarrigt h1:hover{
+    background-color: white;
+    color: red;
+    transition-duration: 1.5s;
+}
+#sidebarrigt:hover{
+    transition-duration: 1.5s;
+    stop-opacity: unset;
+    filter: opacity(100%);
+}
+#sidebar h1{
+    font-family: 'Courier';
+    font-weight: lighter;  
+    color: white;
+    margin: 0%;
+    height: 54.51px;
+    cursor: pointer;
+    font-size: 3.1em;
+    transform: scale(1, 1.2);
+    -webkit-font-smoothing: antialiased;
+}
+#sidebar h1:hover{
+    background-color: white;
+    color: red;
+    transition-duration: 1.5s;
+}
+#sidebar:hover{
+    transition-duration: 1.5s;
+    stop-opacity: unset;
+    filter: opacity(100%);
+}
+#l{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1210px){
+    #sidebar{
+        background-color: #84acea;
+        background-image: none;
+        width: 8.3%;
+    }
+    #sidebar h1 {
+        font-size: 1.6rem;
+        height: 50px;
+        margin-top: 10px;
+    }
+}

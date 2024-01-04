@@ -1,0 +1,19 @@
+.description-cour-particulier {
+    width: 80%;
+    margin: auto;
+}
+.court-particulier-prix-container {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 60%;
+    margin: auto;
+    justify-content:space-around;
+}
+
+.court-particulier-prix-container-child{
+    height: 100%;
+    width: 300px;
+    background-color: beige;
+}
